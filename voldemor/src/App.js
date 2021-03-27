@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
 import { useState } from 'react';
 
 function App() {
 const [loggedIn, setLoggedIn] = useState(false);
 const [pw, setPw] = useState('');
-const [cred, setCred] = useState('');
+//const [cred, setCred] = useState('');
 
 const handlePwFormChange = event => {
   setPw(event.target.value);
